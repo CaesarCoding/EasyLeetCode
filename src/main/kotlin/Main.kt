@@ -1,7 +1,7 @@
 import solution.*
 
 fun main(args: Array<String>) {
-    executeSolution(INTERSECT)
+    executeSolution(PLUS_ONE)
 }
 
 const val REMOVE_DUPLICATES = "RemoveDuplicates"
@@ -10,6 +10,7 @@ const val ROTATE = "Rotate"
 const val CONTAINS_DUPLICATE = "ContainsDuplicate"
 const val SINGLE_NUMBER = "SingleNumber"
 const val INTERSECT = "Intersect"
+const val PLUS_ONE = "PlusOne"
 
 fun executeSolution(name: String) {
     val solution = when (name) {
@@ -19,6 +20,7 @@ fun executeSolution(name: String) {
         CONTAINS_DUPLICATE -> ContainsDuplicate()
         SINGLE_NUMBER -> SingleNumber()
         INTERSECT -> Intersect()
+        PLUS_ONE -> PlusOne()
         else -> null
     }
 
