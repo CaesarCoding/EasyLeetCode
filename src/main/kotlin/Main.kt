@@ -8,6 +8,7 @@ const val REMOVE_DUPLICATES = "RemoveDuplicates"
 const val MAX_PROFIT = "MaxProfit"
 const val ROTATE = "Rotate"
 const val CONTAINS_DUPLICATE = "ContainsDuplicate"
+const val SINGLE_NUMBER = "SingleNumber"
 const val INTERSECT = "Intersect"
 
 fun executeSolution(name: String) {
@@ -16,6 +17,7 @@ fun executeSolution(name: String) {
         MAX_PROFIT -> MaxProfit()
         ROTATE -> Rotate()
         CONTAINS_DUPLICATE -> ContainsDuplicate()
+        SINGLE_NUMBER -> SingleNumber()
         INTERSECT -> Intersect()
         else -> null
     }
