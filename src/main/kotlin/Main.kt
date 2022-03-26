@@ -1,7 +1,7 @@
 import solution.*
 
 fun main(args: Array<String>) {
-    executeSolution(TWO_SUM)
+    executeSolution(IS_VALID_SUDOKU)
 }
 
 const val REMOVE_DUPLICATES = "RemoveDuplicates"
@@ -13,6 +13,7 @@ const val INTERSECT = "Intersect"
 const val PLUS_ONE = "PlusOne"
 const val MOVE_ZEROES = "MoveZeroes"
 const val TWO_SUM = "TwoSum"
+const val IS_VALID_SUDOKU = "IsValidSudoku"
 
 fun executeSolution(name: String) {
     val solution = when (name) {
@@ -25,6 +26,7 @@ fun executeSolution(name: String) {
         PLUS_ONE -> PlusOne()
         MOVE_ZEROES -> MoveZeroes()
         TWO_SUM -> TwoSum()
+        IS_VALID_SUDOKU -> IsValidSudoku()
         else -> null
     }
 
